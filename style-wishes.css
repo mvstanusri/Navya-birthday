@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(179, 49, 241);
+
+}
+.wishes{
+    font-family: "Felipa", serif;
+    color:white;
+    display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:30px;
+   
+}
+img{
+  float:right;
+}
+
+
+.click2{
+  
+  display: flex;
+  justify-content: center;
+}
+.clickcol{
+   background-color: rgb(251, 245, 167);
+   border:10px solid  rgb(251, 245, 167);
+   padding: 30px 30px;
+   border-radius: 30px;
+   margin-top: 20px;
+   font-family: "Felipa", serif;
+    color:rgb(179, 49, 241);
+    font-size: 100px;
+   
+}
+.clickcol:hover{
+  background-image:url(images/doremon.jpg);
+  color:rgb(255, 255, 255);
+}
+@media (max-width: 768px){
+
+  h1{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .wishes{
+    text-align: center;
+  }
+}
